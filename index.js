@@ -76,7 +76,7 @@ async function run() {
             res.send(allReviewsShow);
         })
 
-        //  for all reviews
+        //  for all reviews.
         app.get('/reviews/:id', async (req, res) => {
             const id = req.params.id;
             const query = { service: id };
